@@ -1,0 +1,366 @@
+*{
+    margin: 0; padding: 0; border-sizing: border-box;
+    font-family: poppins;
+  }
+  
+  .header_full_container{
+    background: url(https://websitedemos.net/digital-agency-02/wp-content/uploads/sites/836/2021/05/hero-bg.jpg);
+    background-size: cover;
+    height: 700px;
+    position: relative;
+   
+  }
+  .overlay{
+     position:absolute;
+      top:0px;
+      left:0px;
+      bottom:0px;
+      right:0px;
+      background-color:rgba(0,0,0,0.7);
+  }
+  .header_container{
+    width: 90vw;
+    margin: 0 auto;
+  }
+  
+  .menubar{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 150px;
+  }
+  .menu ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+  }
+  .menu ul li a{
+    color: none;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: roboto;
+  }
+  button{
+    border: none;
+  }
+  button a{
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 15px 25px;
+  }
+   
+  .header_text_part h1{
+    font-size: 100px;
+    color: white;
+  }
+  .header_text_part p{
+    font-size: 30px;
+    width: 600px;
+    padding-left: 650px;
+    color: white;
+    text-align: justify;
+    padding-top: 40px;
+  }
+  
+  /*hire part start here*/
+  .hire_full_container{
+    padding: 100px 0px;
+    background: #F2F1E5;
+  }
+  .hire_container{
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .hire_lower{
+    display: flex;
+    gap: 30px;
+    padding-top: 70px;
+  }
+  .hire_item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hire_item p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  /*hire part end here*/
+  
+  
+  /*About start here*/
+  .about_full_container{
+    padding: 200px 0px;
+     background: #FBE8A6;
+  }
+  .about_container{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    
+  }
+  .about_container_left{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 40vw;
+    padding-right: 50px;
+  }
+  .about_container_left h1, .about_container_left h2{
+    margin-bottom: 20px;
+  }
+  .about_container_left p, .about_container_left p{
+    font-size: 22px;
+    line-height: 1.5;
+    font-style: bold;
+  }
+  .about_container_right{
+    position: relative;
+    top: 300px;
+  }
+  /*About end here*/
+  
+  /*clienst we work with start here*/
+  .client_work_full_container{
+    background: #F2F1E5;
+    padding-top: 200px;
+  }
+  .client_work_container{
+    width: 90vw;
+    margin: 0 auto;
+    
+  }
+  .client_work_container h1{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .client_work_logo{
+    display: flex;
+    gap: 250px;
+   
+  }
+  .client_work_logo img{
+    width: 100%;
+    hieght: auto;
+  }
+  
+  /*clienst we work with end here*/
+  
+  /*why chose use part start here*/
+  .why_chose_us_full_container{
+      background: #F2F1E5;
+  }
+  .why_chose_us_container{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 200px 0px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  /*why chose use part end here*/
+  
+  
+  /*Project part start here*/
+  .project_full_container{
+    background: #2C2927;
+  }
+  .project_container{
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .project_upper_container{
+    display: flex;
+    gap: 10px;
+    background: #FBE8A6;
+    position: relative;
+    bottom: 120px;
+   
+   
+  }
+  .project_upper_container_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    width: 40%;
+  }
+  .project_upper_container_left_text p{
+    font-size: 20px;
+    line-hieght: 1.5;
+    font-family: arial;
+    padding: 30px 0px;
+  }
+  .project_upper_container_right{
+  
+  
+  }
+  .project_upper_container_right img{
+    width: 55vw;
+  }
+  .project_lower_container{
+    display: flex;
+    gap: 20px;
+    padding: 150px 0px;
+    padding-top: 30px;
+    color: white;
+  }
+  .project_lower_container_left{
+    
+  }
+  .project_lower_container_right{
+    width: 40vw;
+    font-size: 22px;
+    line-space: 2;
+    color: #C7C6C6;
+    
+  }
+  /*Project part end here*/
+  
+  
+  /*trusted part start here*/
+  .trusted_partner_full_container{
+    background: #F2F1E5;
+  }
+  .trusted_partner_container{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 100px 0px;
+    
+  }
+  .text_part{
+    display: flex;
+    padding-bottom: 100px;
+    font-family: arial;
+    gap: 200px; 
+  }
+  .text_part_left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: arial;
+  }
+  .text_part_left h1{
+    font-size: 40px;
+  }
+  .text_part_right p{
+    font-family: arial;
+    font-size: 20px;
+    text-align: justify;
+    line-space: 1.5;
+  }
+  .photo_part{
+    display: flex;
+    gap: 1vw;
+    width: 90vw;
+    justify-content: space-between;
+  }
+  .photo_part img{
+    width: 29vw;
+    height: auto;
+    
+  }
+  /*subscribe part start here*/
+  
+  .full_container{
+    height: 30vh;
+    background:  #FBE8A6;
+    padding: 50px 0px;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 90vw;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 60px;
+  }
+  .right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  input{
+    padding: 20px;
+    border: none;
+    width: 40vw;
+    font-size: 20px;
+  }
+  
+  button{
+    background: none;
+    font-size: 20px;
+    padding: 10px;
+    height: 50px;
+  }
+  /*subscribe part end here*/
+  
+  /*footer part start here*/
+  .footer_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+    font-size: 20px;
+    width: 90vw;
+    margin: 0 auto;
+    color: #5D605C;
+    font-family: arial;
+   
+  }
+  .footer_left{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    justify-content: flex-start;
+    
+  }
+  .footer_left img{
+    width: 200px;
+    height: auto;
+  }
+  .footer_right{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  
+  }
+  .footer_right ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+  }
+  .footer_right ul li a{
+    text-decoration: none;
+    color: #5D605C;
+    font-size: 20px;
+    font-family: arial;
+   
+  }
+  i{
+    font-size: 20px;
+  }
+  
+  /*footer part end here*/
+  /*copyright part start here*/
+  .copyright p{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 50px 0px;
+    text-align: center;
+    border-top: 1px solid #5D605C;
+    font-size: 16px;
+    font-family: arial;
+  }
+  
